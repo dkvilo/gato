@@ -1,13 +1,15 @@
 # Gato - SDL2 Game Toolkit
 
-This is Lightweight abstraction on top of SDL2. Bit outdated, but still useable for building 2D games (especially for game jams, for wasm distribution)
+This is a Lightweight abstraction on top of SDL2. It is a bit outdated, but still useable for building 2D games (especially for game jams, for wasm distribution)
 
 It abstracts:
 - sprite frame, animated sprites, parallax system, font, particles, audio, immediate mode ui, scene transitions, 2d collision solvers, input management.
 
-Supports WebAssembly and native compilation to Linux and Macos (Windows support is trivial since its SDL)
+Supports WebAssembly and native compilation to Linux and Macos (Windows support is trivial since it is SDL)
 
-in the dk_game.c you can find simple local multiplayer game demo.
+in the dk_game.c you can find a simple local multiplayer game demo.
+
+https://dkvilo.github.io/gato/
 
 # Build
 
@@ -17,7 +19,7 @@ Install following deps
 - sdl2_ttf
 - sdl2_mixer (or use local audio engine see makefile)
 
-In order to target wasm you need to install Emscripten toolchain
+In order to target wasm you need to install the Emscripten toolchain
 
 ```
 # for native compilation
