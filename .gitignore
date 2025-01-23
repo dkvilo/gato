@@ -1,0 +1,12 @@
+app
+*.coords
+.vscode
+app.dSYM
+.DS_Store
+*.log
+*.log.*
+index.js
+index.html
+*.data
+*.wasm
+*.png
